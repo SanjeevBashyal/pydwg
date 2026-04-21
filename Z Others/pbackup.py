@@ -3,7 +3,7 @@ import pyautocad
 from pyautocad import Autocad, APoint
 from myAutoCAD import myAutoCAD
 from config import BASE_POINT
-from dbm import DBM
+from Z Others.dbm import DBM
 
 class FourSectionCutGenerator:
     def __init__(self, acad: myAutoCAD):
